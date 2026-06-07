@@ -1,42 +1,12 @@
-# sv
+# Kindle
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<p align="center">
+    <img alt = "Firebase" src="https://img.shields.io/badge/firebase-f57C00?style=for-the-badge&logo=firebase&logoColor=white"/>
+    <img alt = "Svelte" src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white"/>
+    <img alt = "TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+    <img alt = "Vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/>
+</p>
 
-## Creating a project
+**Kindle** is a serverless web application built to foster safer school environments by offering students a secure platform to report bullying and access guidance resources.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.15.4 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography" sveltekit-adapter="adapter:static" --install npm kindle
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+It is an ongoing rewrite of an earlier project to improve developer and user experience. The former counterpart ran on a provisioned server with a dedicted backend, a concern disproportionate to the problem it was solving. This rewrite trades that complexity for a BaaS-driven architecture which aims to keep and add to the full feature set while eliminating the operational burden entirely.
