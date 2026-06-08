@@ -13,4 +13,4 @@ It is an ongoing rewrite of an earlier project to improve developer and user exp
 
 ## License
 
-This repository is licensed under Mozilla Public License 2.0. Please refer to the (LICENSE)[LICENSE] file for full details. Other resources included, such as images, are licensed under (Creative Commons Attribution Non-Commercial Share-Alike 4.0 International)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
+This repository is licensed under Mozilla Public License 2.0. Please refer to the [LICENSE](LICENSE) file for full details. Other resources included, such as images, are licensed under [Creative Commons Attribution Non-Commercial Share-Alike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
